@@ -1,8 +1,5 @@
-## Step 1 (create custom image from dockerfile)
-```
-docker build -t perfex .
-```
-## Step 2 (run compose)
+## Step 1
 ```
 docker compose up -d
 ```
+
