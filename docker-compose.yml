@@ -2,6 +2,7 @@ version: '3'
 
 services:
   perfex:
+    build: .
     image: perfex
     depends_on:
       - mysql
